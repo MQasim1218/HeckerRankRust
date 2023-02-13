@@ -14,3 +14,4 @@ pub fn diagonal_difference(arr: &Vec<Vec<i32>>) -> i32 {
         tot_y - tot_x
     }
 }
+
