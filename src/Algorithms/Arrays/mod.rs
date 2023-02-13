@@ -13,6 +13,11 @@ pub fn runner() {
     // println!("The Sum of all the elements in the array is: {}", x)
 
     // ! Long Array Sum
-    let x = LongSum::long_array_sum(&[1, 2, 3, 4, 10, 11, 15, 17]);
-    println!("The Sum of all the elements in the array is: {}", x)
+    // let x = LongSum::long_array_sum(&[1, 2, 3, 4, 10, 11, 15, 17]);
+    // println!("The Sum of all the elements in the array is: {}", x)
+
+    // ! Long Array Sum
+    let arr: Vec<Vec<i32>> = vec![vec![1, 2, 3], vec![4, 5, 6], vec![7, 8, 9]];
+    let x = DiagonalDiff::diagonal_difference(&arr);
+    println!("The diagonal differnce for elements in the array is: {}", x)
 }
